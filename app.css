@@ -1,0 +1,217 @@
+body {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #222;
+}
+.head-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-left-nav {
+    list-style-type: none;
+    display: flex;
+    
+}
+.top-right-nav {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    
+}
+.about-nav {
+    padding-right: 15px;
+    cursor: pointer;
+}
+.about-nav:hover {
+    text-decoration: underline;
+}
+.store-nav {
+    cursor: pointer;
+}
+.store-nav:hover {
+    text-decoration: underline;
+}
+.email-nav {
+    padding-right: 20px;
+    cursor: pointer;
+
+}
+.email-nav:hover {
+    text-decoration: underline;
+}
+.profile-icon {
+    background-image: url("https://yt3.ggpht.com/ytc/AAUvwnjTpwtFQSStadZTuyooCFuuNvRk4lSyH5F650srbw=s900-c-k-c0x00ffffff-no-rj");
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-flow: wrap column;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+.google-image {
+    width: 272px;
+    height: 92px;
+    cursor: pointer;
+}
+.text-box {
+    display: flex;
+    border: 1px solid #dfe1e5;
+    height: 35px;
+    width: 30%;
+    border-width: solid 2px 4px;
+    border-radius: 40px;
+    margin-top: 25px;
+    background:#FFFFFF url("https://img.icons8.com/small/16/000000/search.png") no-repeat 10px 10px;
+    /*background: #FFFFFF url("https://duckduckgo.com/?q=search+by+voice+icon&iax=images&ia=images&iai=https%3A%2F%2Fwww.searchpng.com%2Fwp-content%2Fuploads%2F2019%2F02%2FVoice-Search-Icon-PNG-1024x1024.png") no-repeat 20px 10px; */
+    resize: none;
+    font-size: 20px;
+    font-family: arial, sans-serif;
+    
+}
+.text-box:hover {
+    box-shadow: 0px 0px 15px -10px grey;
+}
+.text-box:active {
+    border: 1px solid #dfe1e5;
+}
+.buttonss {
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.button-left {
+    margin-right: 10px;
+    padding: 10px 23px;
+    border: 1px solid #f8f9fa;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    cursor: pointer;
+
+}
+.button-left:hover {
+    border: 1.5px solid slategrey;
+   
+}
+.button-right {
+    margin-left: 10px;
+    padding: 5px 16px;
+    font-size: 14px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    cursor: pointer;
+}
+.button-right:hover {
+    border: 1.5px solid slategray;
+}
+
+.images-nav {
+    padding-right: 20px;
+    cursor: pointer;
+}
+.images-nav:hover {
+    text-decoration: underline;
+}
+.nav-icon {
+    padding-right: 20px;
+    cursor: pointer;
+    
+}
+
+.profile-icon {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+.left-footer {
+    color: #70757a;
+    display: flex;
+    list-style-type: none;
+    
+
+}
+.right-footer {
+    color: #70757a;
+    display: flex;
+    list-style-type: none;
+}
+.middle-footer {
+    color: #70757a;
+}
+.ad-footer {
+    padding-right: 20px;
+    cursor: pointer;
+}
+.ad-footer:hover {
+    text-decoration: underline;
+}
+.bus-footer {
+    padding-right: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.bus-footer:hover {
+    text-decoration: underline;
+}
+.how-footer {
+    padding-left: 10px;
+    cursor: pointer;
+}
+.how-footer:hover {
+    text-decoration: underline;
+}
+.middle-footer {
+    margin-right: 400px;
+    cursor: pointer;
+
+}
+.middle-footer:hover {
+    text-decoration: underline;
+}
+
+.priv-footer {
+    padding-right: 20px;
+    cursor: pointer;
+}
+.priv-footer:hover {
+    text-decoration: underline;
+}
+.terms-footer {
+    padding-right: 20px;
+    cursor: pointer;
+}
+.terms-footer:hover {
+    text-decoration: underline;
+}
+.set-footer {
+    padding-right: 80px;
+    cursor: pointer;
+}
+.set-footer:hover {
+    text-decoration: underline;
+}
+.img-footer {
+    width: 20px;
+    height: 20px;
+    margin-left: 310px;
+}
